@@ -6,17 +6,17 @@ A Simple Github App
 * The app requires storage permission at first launch, but it does not actually access your storage.
 
 ### Libraries/Frameworks used
-* The app presents data using MVVM pattern with LiveData nad ViewModel from Jetpack Library.
+* The app presents data using MVVM pattern with LiveData and ViewModel from Jetpack Library.
 * The network requests are performed through Retrofit.
 * The profile page's avatar view uses Picasso.
 * Async tasks are executed using Kotlin coroutine.
 
 ### Login and Security
 The app uses GitHub's personal access token to login. You can generate it here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token.
-After user logs in, the personal access token is stored locally in encrypted shared preference until user logs out
+After user logs in, the personal access token is stored locally in encrypted shared preference until user logs out.
 
 ### Testing
-The project uses Mockito to unit test. Due to time limit, only view models and AccountManger is tested.
+The project uses Mockito to unit test. Due to time limit, only view models and AccountManger are tested.
 
 ### Test Cases
 * User logs in successfully: App navigates to Profile page. User info is displayed. When user opens the app next time, he/she does not
