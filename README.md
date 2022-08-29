@@ -1,20 +1,18 @@
 A Simple Github App
 ===========================================================
 
-This is a simple GitHub app that allows users to search GitHub repositories and has a simple profile page.
-
-The app is composed of 3 screens: search, profile and login
-
-The app requires storage permission at first launch, but it does not actually access your storage.
+* This is a simple GitHub app that allows users to search GitHub repositories and has a simple profile page.
+* The app is composed of 3 screens: search, profile and login.
+* The app requires storage permission at first launch, but it does not actually access your storage.
 
 ### Libraries/Frameworks used
-The app presents data using MVVM pattern with LiveData nad ViewModel from Jetpack Library.
-The network requests are performed through Retrofit
-The profile page's avatar view uses Picasso
-Async tasks are executed using Kotlin coroutine
+* The app presents data using MVVM pattern with LiveData nad ViewModel from Jetpack Library.
+* The network requests are performed through Retrofit.
+* The profile page's avatar view uses Picasso.
+* Async tasks are executed using Kotlin coroutine.
 
 ### Login and Security
-The app uses GitHub's personal access token to login. You can generate it here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+The app uses GitHub's personal access token to login. You can generate it here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token.
 After user logs in, the personal access token is stored locally in encrypted shared preference until user logs out
 
 ### Testing
